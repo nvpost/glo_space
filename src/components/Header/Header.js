@@ -42,7 +42,7 @@ const Header = (props) => (
 					>Home</NavLink>
 				</li>
 				<li className="item">
-					<NavLink to="calendar" 
+					<NavLink to="/calendar" 
 					className="item-link"
 					activeClassName = "active"
 					>Calendar</NavLink>

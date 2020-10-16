@@ -1,5 +1,6 @@
 import React from 'react'
 import './fea.css'
+import Main from '../Main/Main'
 // import fal from './falcone-1.png'
 import RelaxWrapper from 'react-rellax-wrapper'
 
@@ -22,6 +23,8 @@ const Fea = ( props ) => {
 	}	
 	
 	return(
+	<>
+	<Main rocket={name}/> 	
 	<section className="features">
 		
 		<h2 className="features-title">
@@ -75,7 +78,7 @@ const Fea = ( props ) => {
 			</article>
 		</div>
 	</section>
-
+</>
 )}
 
 export default Fea
